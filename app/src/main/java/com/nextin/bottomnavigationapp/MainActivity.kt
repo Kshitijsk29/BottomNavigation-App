@@ -2,17 +2,17 @@ package com.nextin.bottomnavigationapp
 
 import android.os.Build
 import android.os.Bundle
-import android.widget.FrameLayout
-import androidx.activity.enableEdgeToEdge
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
-
+import com.nextin.bottomnavigationapp.fragments.FeedFragment
+import com.nextin.bottomnavigationapp.fragments.HomeFragment
+import com.nextin.bottomnavigationapp.fragments.ProfileFragment
+import com.nextin.bottomnavigationapp.fragments.SearchFragment
 
 class MainActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.R)
