@@ -1,4 +1,4 @@
-package com.nextin.bottomnavigationapp
+package com.nextin.bottomnavigationapp.activities
 
 import android.os.Build
 import android.os.Bundle
@@ -9,6 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.nextin.bottomnavigationapp.R
 import com.nextin.bottomnavigationapp.fragments.FeedFragment
 import com.nextin.bottomnavigationapp.fragments.HomeFragment
 import com.nextin.bottomnavigationapp.fragments.ProfileFragment
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         bottomNavigation.setOnItemSelectedListener {
             when(it.itemId){
                 R.id.itemHome -> replaceFrameWithFragment(HomeFragment())
-                R.id.itemSearch-> replaceFrameWithFragment(SearchFragment())
+                R.id.itemSearch -> replaceFrameWithFragment(SearchFragment())
                 R.id.itemFeed -> replaceFrameWithFragment(FeedFragment())
                 R.id.itemProfile -> replaceFrameWithFragment(ProfileFragment())
                 else ->{
