@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "540964784508",
+    "project_id": "bottomnavigation-app",
+    "storage_bucket": "bottomnavigation-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540964784508:android:2d14e5c4e239138a42bcf9",
+        "android_client_info": {
+          "package_name": "com.nextin.bottomnavigationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_agy_dJvGRyxJ4jNSajnF9AIVrLRhsBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
